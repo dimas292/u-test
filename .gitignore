@@ -1,0 +1,13 @@
+/node_modules/
+
+logger
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore all files in a directory
