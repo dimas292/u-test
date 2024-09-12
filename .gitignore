@@ -7,7 +7,5 @@ logger
 .env
 
 # OS-specific files
-.DS_Store
-Thumbs.db
 
 # Ignore all files in a directory
