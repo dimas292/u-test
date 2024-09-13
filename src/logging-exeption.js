@@ -10,4 +10,5 @@ const logger = winston.createLogger({
   ]
 })
 
-hello()
+logger.info('hello world')
+
