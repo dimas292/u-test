@@ -32,3 +32,13 @@ test('signed cookie', async() => {
   expect(response.text).toBe('dimas');
 })
 
+test('send file..', async() => {
+  const app = express()
+  app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/contoh.txt')
+  })  
+
+  const response = await request(app).get('/')
+  expect(response.text).toContain('this is sample')
+})
+
